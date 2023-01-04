@@ -1,13 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <form action="" id="form">
+        <h3>Form registrazione Utente</h3>
+        <input type="text" id="nome" placeholder="nome"/>
+        <input type="text" id="cognome" placeholder="cognome"/>
+        <input type="text" id="eta" placeholder="età"/>
+        <input type="text" id="genere" placeholder="genere"/>
+        <input type="text" id="interessi"placeholder="interessi"/>
+      </form>
+      <input type="submit"onclick="newPersona()" />
+      <input type="submit"onclick="mostra_utenti()"value="mostra lista nomi" />    
+      <div id="lista"></div> 
+
+
+      <table title="tabella">
+        <tr>
+          <th>th</th>
+          <th>th</th>
+        </tr>
+        <tr>
+        <td>td</td>
+        <td>td</td>
+        </tr>
+      </table>
+
+
+    </main>
+    <footer></footer>
     <script src="script.js"></script>
-</body>
-</html>
+  </body>
+</html> 
